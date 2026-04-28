@@ -1,16 +1,59 @@
-# React + Vite
+# Resume-Based Interview Bot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is an AI-powered interview assistant designed to generate personalized interview questions based on a candidate’s resume. It helps users prepare more effectively by focusing on their actual skills, experience, and projects rather than generic questions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Accepts resume content as input  
+- Generates interview questions tailored to the resume  
+- Covers technical, project-based, and experience-based questions  
+- Produces varied and dynamic questions for better practice  
+- Useful for self-assessment and interview preparation  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** HTML, CSS, JavaScript (Vite)  
+- **Backend:** (add if applicable)  
+- **AI Integration:** (e.g., OpenAI API / Gemini API — update based on what you used)  
+
+---
+
+## Project Structure
+
+```
+resume-based-interview-bot/
+│── index.html
+│── package.json
+│── vite.config.js
+│── eslint.config.js
+│── README.md
+```
+
+---
+
+## Installation and Setup
+
+1. Navigate to the project folder:
+   ```
+   cd resume-based-interview-bot
+   ```
+
+2. Install dependencies:
+   ```
+   npm install
+   ```
+
+3. Start the development server:
+   ```
+   npm run dev
+   ```
+
+---
+
+## How It Works
+
+The user provides their resume content, which is then processed by the system. Based on the extracted information such as skills, projects, and experience, the AI generates relevant interview questions. This allows users to practice in a way that closely reflects real interview scenarios.
